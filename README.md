@@ -29,7 +29,8 @@ This repository contains documentation to help team members set up projects corr
 
 1. Review [STRUCTURE.md](./STRUCTURE.md) if you're setting up a new project or need guidance on organizing files
 2. Read [CONTRIBUTING.md](./CONTRIBUTING.md) to understand our contribution standards before submitting work
-3. Reference these guides as needed during development
+3. Check [LABELS_TAGS_AND_BUTTONS.md](./LABELS_TAGS_AND_BUTTONS.md) for standards on labels, tags, and buttons in your repository
+4. Reference these guides as needed during development
 
 ## Living Documents
 
@@ -52,3 +53,4 @@ This repository is licensed under the MIT License—see [LICENSE](./LICENSE) for
 ---
 
 **Thank you for being part of the team.** We're committed to keeping these resources clear, current, and helpful as we grow.
+
