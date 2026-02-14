@@ -53,4 +53,3 @@ This repository is licensed under the MIT License—see [LICENSE](./LICENSE) for
 ---
 
 **Thank you for being part of the team.** We're committed to keeping these resources clear, current, and helpful as we grow.
-
