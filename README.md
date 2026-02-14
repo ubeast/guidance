@@ -19,6 +19,12 @@ This repository contains documentation to help team members set up projects corr
 - Standards and expectations for contributors
 - How to follow best practices when working on projects
 
+**[LABELS_TAGS_AND_BUTTONS.md](./LABELS_TAGS_AND_BUTTONS.md)** – Labels, tags, and buttons best practices
+- Standards for labels, tags, and buttons within the repository
+- Color specifications and naming conventions
+- Usage guidelines for each label, tag, and button
+- Examples for consistent implementation
+
 ## Getting Started
 
 1. Review [STRUCTURE.md](./STRUCTURE.md) if you're setting up a new project or need guidance on organizing files
