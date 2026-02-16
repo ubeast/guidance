@@ -490,15 +490,15 @@ GitLab has a powerful feature called **scoped labels** that use double-colon (::
 
 **Examples:**
 ```
-priority::critical
-priority::high
-workflow::in-progress
-workflow::review
-workflow::blocked
-team::backend
-team::frontend
-platform::iOS
-platform::Android
+priority::critical       (red)
+priority::high          (orange)
+workflow::in-progress   (yellow)
+workflow::review        (blue)
+workflow::blocked       (red)
+team::backend           (purple)
+team::frontend          (cyan)
+platform::iOS           (gray)
+platform::Android       (gray)
 ```
 
 **Benefits:**
@@ -619,34 +619,31 @@ This automatically removes `workflow::in-review` and adds `workflow::testing`.
 
 Use scoped labels for maximum organization:
 
-```
-priority::critical
-priority::high
-priority::medium
-priority::low
-
-workflow::backlog
-workflow::in-progress
-workflow::in-review
-workflow::blocked
-workflow::done
-
-type::bug
-type::feature
-type::docs
-type::refactor
-
-team::backend
-team::frontend
-team::devops
-```
+| Label | Color |
+|-------|-------|
+| priority::critical | <span style="display:inline-block;width:16px;height:16px;background-color:#d73a4a;border:1px solid #000;"></span> |
+| priority::high | <span style="display:inline-block;width:16px;height:16px;background-color:#ff6b35;border:1px solid #000;"></span> |
+| priority::medium | <span style="display:inline-block;width:16px;height:16px;background-color:#ffa500;border:1px solid #000;"></span> |
+| priority::low | <span style="display:inline-block;width:16px;height:16px;background-color:#d3d3d3;border:1px solid #999;"></span> |
+| workflow::backlog | <span style="display:inline-block;width:16px;height:16px;background-color:#95a5a6;border:1px solid #999;"></span> |
+| workflow::in-progress | <span style="display:inline-block;width:16px;height:16px;background-color:#cccccc;border:1px solid #999;"></span> |
+| workflow::in-review | <span style="display:inline-block;width:16px;height:16px;background-color:#0075ca;border:1px solid #000;"></span> |
+| workflow::blocked | <span style="display:inline-block;width:16px;height:16px;background-color:#d73a4a;border:1px solid #000;"></span> |
+| workflow::done | <span style="display:inline-block;width:16px;height:16px;background-color:#28a745;border:1px solid #000;"></span> |
+| type::bug | <span style="display:inline-block;width:16px;height:16px;background-color:#d73a4a;border:1px solid #000;"></span> |
+| type::feature | <span style="display:inline-block;width:16px;height:16px;background-color:#7057ff;border:1px solid #000;"></span> |
+| type::docs | <span style="display:inline-block;width:16px;height:16px;background-color:#0075ca;border:1px solid #000;"></span> |
+| type::refactor | <span style="display:inline-block;width:16px;height:16px;background-color:#d4c5f9;border:1px solid #000;"></span> |
+| team::backend | <span style="display:inline-block;width:16px;height:16px;background-color:#9b59b6;border:1px solid #000;"></span> |
+| team::frontend | <span style="display:inline-block;width:16px;height:16px;background-color:#0184bc;border:1px solid #000;"></span> |
+| team::devops | <span style="display:inline-block;width:16px;height:16px;background-color:#7bc96f;border:1px solid #000;"></span> |
 
 Then add unscoped labels for additional organization:
 
-```
-good-first-issue
-help-wanted
-accessibility
-security
-performance
-```
+| Label | Color |
+|-------|-------|
+| good-first-issue | <span style="display:inline-block;width:16px;height:16px;background-color:#7bc96f;border:1px solid #000;"></span> |
+| help-wanted | <span style="display:inline-block;width:16px;height:16px;background-color:#008672;border:1px solid #000;"></span> |
+| accessibility | <span style="display:inline-block;width:16px;height:16px;background-color:#a2eeef;border:1px solid #000;"></span> |
+| security | <span style="display:inline-block;width:16px;height:16px;background-color:#d73a4a;border:1px solid #000;"></span> |
+| performance | <span style="display:inline-block;width:16px;height:16px;background-color:#ffa500;border:1px solid #000;"></span> |
