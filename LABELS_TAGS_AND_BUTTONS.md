@@ -111,45 +111,45 @@ git push origin v1.0.0
 
 | Label | Color | Hex Code | Use For |
 |-------|-------|----------|---------|
-| bug | <span style="display:inline-block;width:20px;height:20px;background-color:#d73a4a;border:1px solid #000;"></span> | `#d73a4a` | Something is broken |
-| documentation | <span style="display:inline-block;width:20px;height:20px;background-color:#0075ca;border:1px solid #000;"></span> | `#0075ca` | Docs need updating |
-| duplicate | <span style="display:inline-block;width:20px;height:20px;background-color:#cfd3d7;border:1px solid #999;"></span> | `#cfd3d7` | Already reported |
-| enhancement | <span style="display:inline-block;width:20px;height:20px;background-color:#a2eeef;border:1px solid #000;"></span> | `#a2eeef` | New feature/improvement |
-| feature | <span style="display:inline-block;width:20px;height:20px;background-color:#7057ff;border:1px solid #000;"></span> | `#7057ff` | New feature |
-| good-first-issue | <span style="display:inline-block;width:20px;height:20px;background-color:#7bc96f;border:1px solid #000;"></span> | `#7bc96f` | Good for beginners |
-| help wanted | <span style="display:inline-block;width:20px;height:20px;background-color:#008672;border:1px solid #000;"></span> | `#008672` | Need community help |
-| in progress | <span style="display:inline-block;width:20px;height:20px;background-color:#cccccc;border:1px solid #999;"></span> | `#cccccc` | Currently being worked on |
-| invalid | <span style="display:inline-block;width:20px;height:20px;background-color:#e4e669;border:1px solid #999;"></span> | `#e4e669` | Not valid/won't fix |
-| question | <span style="display:inline-block;width:20px;height:20px;background-color:#d876e3;border:1px solid #000;"></span> | `#d876e3` | Question/needs clarification |
-| wontfix | <span style="display:inline-block;width:20px;height:20px;background-color:#ffffff;border:1px solid #999;"></span> | `#ffffff` | Won't be fixed |
+| bug | 🔴 | `#d73a4a` | Something is broken |
+| documentation | 🔵 | `#0075ca` | Docs need updating |
+| duplicate | ⚪ | `#cfd3d7` | Already reported |
+| enhancement | 💧 | `#a2eeef` | New feature/improvement |
+| feature | 🟣 | `#7057ff` | New feature |
+| good-first-issue | 🟢 | `#7bc96f` | Good for beginners |
+| help wanted | 🌊 | `#008672` | Need community help |
+| in progress | ⚙️ | `#cccccc` | Currently being worked on |
+| invalid | 🔘 | `#e4e669` | Not valid/won't fix |
+| question | 🟤 | `#d876e3` | Question/needs clarification |
+| wontfix | ⚪ | `#ffffff` | Won't be fixed |
 
 ## Priority Labels (Custom)
 
 | Label | Color | Use For |
 |-------|-------|---------|
-| priority-critical | <span style="display:inline-block;width:20px;height:20px;background-color:#d73a4a;border:1px solid #000;"></span> `#d73a4a` | Must fix immediately |
-| priority-high | <span style="display:inline-block;width:20px;height:20px;background-color:#ff6b35;border:1px solid #000;"></span> `#ff6b35` | Important, do soon |
-| priority-medium | <span style="display:inline-block;width:20px;height:20px;background-color:#ffa500;border:1px solid #000;"></span> `#ffa500` | Normal priority |
-| priority-low | <span style="display:inline-block;width:20px;height:20px;background-color:#d3d3d3;border:1px solid #999;"></span> `#d3d3d3` | Can wait |
+| priority-critical | 🔴 `#d73a4a` | Must fix immediately |
+| priority-high | 🟠 `#ff6b35` | Important, do soon |
+| priority-medium | 🟡 `#ffa500` | Normal priority |
+| priority-low | ⚪ `#d3d3d3` | Can wait |
 
 ## Status Labels (Custom)
 
 | Label | Color | Use For |
 |-------|-------|---------|
-| status-needs-review | <span style="display:inline-block;width:20px;height:20px;background-color:#0075ca;border:1px solid #000;"></span> `#0075ca` | Waiting for review |
-| status-in-progress | <span style="display:inline-block;width:20px;height:20px;background-color:#ffb819;border:1px solid #000;"></span> `#ffb819` | Being worked on |
-| status-blocked | <span style="display:inline-block;width:20px;height:20px;background-color:#d73a4a;border:1px solid #000;"></span> `#d73a4a` | Blocked by something |
-| status-ready | <span style="display:inline-block;width:20px;height:20px;background-color:#28a745;border:1px solid #000;"></span> `#28a745` | Ready to merge/deploy |
+| status-needs-review | 🔵 `#0075ca` | Waiting for review |
+| status-in-progress | 🟡 `#ffb819` | Being worked on |
+| status-blocked | 🔴 `#d73a4a` | Blocked by something |
+| status-ready | 🟢 `#28a745` | Ready to merge/deploy |
 
 ## Type Labels (Custom)
 
 | Label | Color | Use For |
 |-------|-------|---------|
-| type-bug | <span style="display:inline-block;width:20px;height:20px;background-color:#d73a4a;border:1px solid #000;"></span> `#d73a4a` | Bug fix |
-| type-feature | <span style="display:inline-block;width:20px;height:20px;background-color:#7057ff;border:1px solid #000;"></span> `#7057ff` | New feature |
-| type-refactor | <span style="display:inline-block;width:20px;height:20px;background-color:#d4c5f9;border:1px solid #000;"></span> `#d4c5f9` | Code cleanup |
-| type-test | <span style="display:inline-block;width:20px;height:20px;background-color:#0184bc;border:1px solid #000;"></span> `#0184bc` | Testing related |
-| type-docs | <span style="display:inline-block;width:20px;height:20px;background-color:#0075ca;border:1px solid #000;"></span> `#0075ca` | Documentation |
+| type-bug | 🔴 `#d73a4a` | Bug fix |
+| type-feature | 🟣 `#7057ff` | New feature |
+| type-refactor | 🟤 `#d4c5f9` | Code cleanup |
+| type-test | 🔷️ `#0184bc` | Testing related |
+| type-docs | 🔵 `#0075ca` | Documentation |
 
 ---
 
@@ -166,11 +166,11 @@ Same process, but use the color picker instead of typing hex code
 
 **Example for your project:**
 
-1. <span style="display:inline-block;width:20px;height:20px;background-color:#d73a4a;border:1px solid #000;"></span> **bug** - `#d73a4a`
-2. <span style="display:inline-block;width:20px;height:20px;background-color:#7057ff;border:1px solid #000;"></span> **feature** - `#7057ff`
-3. <span style="display:inline-block;width:20px;height:20px;background-color:#0075ca;border:1px solid #000;"></span> **documentation** - `#0075ca`
-4. <span style="display:inline-block;width:20px;height:20px;background-color:#7bc96f;border:1px solid #000;"></span> **good-first-issue** - `#7bc96f`
-5. <span style="display:inline-block;width:20px;height:20px;background-color:#0075ca;border:1px solid #000;"></span> **needs-review** - `#0075ca`
+1. 🔴 **bug** - `#d73a4a`
+2. 🟣 **feature** - `#7057ff`
+3. 🔵 **documentation** - `#0075ca`
+4. 🟢 **good-first-issue** - `#7bc96f`
+5. 🔵 **needs-review** - `#0075ca`
 
 ---
 
@@ -178,12 +178,12 @@ Same process, but use the color picker instead of typing hex code
 
 Start with just these 6 and add more as needed:
 
-1. **bug** - <span style="display:inline-block;width:20px;height:20px;background-color:#d73a4a;border:1px solid #000;"></span> `#d73a4a`
-2. **feature** - <span style="display:inline-block;width:20px;height:20px;background-color:#7057ff;border:1px solid #000;"></span> `#7057ff`
-3. **documentation** - <span style="display:inline-block;width:20px;height:20px;background-color:#0075ca;border:1px solid #000;"></span> `#0075ca`
-4. **good-first-issue** - <span style="display:inline-block;width:20px;height:20px;background-color:#7bc96f;border:1px solid #000;"></span> `#7bc96f`
-5. **needs-review** - <span style="display:inline-block;width:20px;height:20px;background-color:#ffa500;border:1px solid #000;"></span> `#ffa500`
-6. **wontfix** - <span style="display:inline-block;width:20px;height:20px;background-color:#cccccc;border:1px solid #999;"></span> `#cccccc`
+1. **bug** - 🔴 `#d73a4a`
+2. **feature** - 🟣 `#7057ff`
+3. **documentation** - 🔵 `#0075ca`
+4. **good-first-issue** - 🟢 `#7bc96f`
+5. **needs-review** - 🟠 `#ffa500`
+6. **wontfix** - ⚪ `#cccccc`
 
 These colors are standardized across GitHub and developers will recognize them immediately.
 
@@ -621,29 +621,29 @@ Use scoped labels for maximum organization:
 
 | Label | Color |
 |-------|-------|
-| priority::critical | <span style="display:inline-block;width:16px;height:16px;background-color:#d73a4a;border:1px solid #000;"></span> |
-| priority::high | <span style="display:inline-block;width:16px;height:16px;background-color:#ff6b35;border:1px solid #000;"></span> |
-| priority::medium | <span style="display:inline-block;width:16px;height:16px;background-color:#ffa500;border:1px solid #000;"></span> |
-| priority::low | <span style="display:inline-block;width:16px;height:16px;background-color:#d3d3d3;border:1px solid #999;"></span> |
-| workflow::backlog | <span style="display:inline-block;width:16px;height:16px;background-color:#95a5a6;border:1px solid #999;"></span> |
-| workflow::in-progress | <span style="display:inline-block;width:16px;height:16px;background-color:#cccccc;border:1px solid #999;"></span> |
-| workflow::in-review | <span style="display:inline-block;width:16px;height:16px;background-color:#0075ca;border:1px solid #000;"></span> |
-| workflow::blocked | <span style="display:inline-block;width:16px;height:16px;background-color:#d73a4a;border:1px solid #000;"></span> |
-| workflow::done | <span style="display:inline-block;width:16px;height:16px;background-color:#28a745;border:1px solid #000;"></span> |
-| type::bug | <span style="display:inline-block;width:16px;height:16px;background-color:#d73a4a;border:1px solid #000;"></span> |
-| type::feature | <span style="display:inline-block;width:16px;height:16px;background-color:#7057ff;border:1px solid #000;"></span> |
-| type::docs | <span style="display:inline-block;width:16px;height:16px;background-color:#0075ca;border:1px solid #000;"></span> |
-| type::refactor | <span style="display:inline-block;width:16px;height:16px;background-color:#d4c5f9;border:1px solid #000;"></span> |
-| team::backend | <span style="display:inline-block;width:16px;height:16px;background-color:#9b59b6;border:1px solid #000;"></span> |
-| team::frontend | <span style="display:inline-block;width:16px;height:16px;background-color:#0184bc;border:1px solid #000;"></span> |
-| team::devops | <span style="display:inline-block;width:16px;height:16px;background-color:#7bc96f;border:1px solid #000;"></span> |
+| priority::critical | 🔴 `#d73a4a` |
+| priority::high | 🟠 `#ff6b35` |
+| priority::medium | 🟡 `#ffa500` |
+| priority::low | ⚪ `#d3d3d3` |
+| workflow::backlog | 🔘 `#95a5a6` |
+| workflow::in-progress | ⚙️ `#cccccc` |
+| workflow::in-review | 🔵 `#0075ca` |
+| workflow::blocked | 🔴 `#d73a4a` |
+| workflow::done | 🟢 `#28a745` |
+| type::bug | 🔴 `#d73a4a` |
+| type::feature | 🟣 `#7057ff` |
+| type::docs | 🔵 `#0075ca` |
+| type::refactor | 🟤 `#d4c5f9` |
+| team::backend | 🟣 `#9b59b6` |
+| team::frontend | 🔷️ `#0184bc` |
+| team::devops | 🟢 `#7bc96f` |
 
 Then add unscoped labels for additional organization:
 
 | Label | Color |
 |-------|-------|
-| good-first-issue | <span style="display:inline-block;width:16px;height:16px;background-color:#7bc96f;border:1px solid #000;"></span> |
-| help-wanted | <span style="display:inline-block;width:16px;height:16px;background-color:#008672;border:1px solid #000;"></span> |
-| accessibility | <span style="display:inline-block;width:16px;height:16px;background-color:#a2eeef;border:1px solid #000;"></span> |
-| security | <span style="display:inline-block;width:16px;height:16px;background-color:#d73a4a;border:1px solid #000;"></span> |
-| performance | <span style="display:inline-block;width:16px;height:16px;background-color:#ffa500;border:1px solid #000;"></span> |
+| good-first-issue | 🟢 `#7bc96f` |
+| help-wanted | 🌊 `#008672` |
+| accessibility | 💧 `#a2eeef` |
+| security | 🔴 `#d73a4a` |
+| performance | 🟠 `#ffa500` |
