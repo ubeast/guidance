@@ -109,47 +109,47 @@ git push origin v1.0.0
 
 ## Standard GitHub Label Colors
 
-| Label | Color | Hex Code | Use For |
-|-------|-------|----------|---------|
-| bug | 🔴 | `#d73a4a` | Something is broken |
-| documentation | 🔵 | `#0075ca` | Docs need updating |
-| duplicate | ⚪ | `#cfd3d7` | Already reported |
-| enhancement | 💧 | `#a2eeef` | New feature/improvement |
-| feature | 🟣 | `#7057ff` | New feature |
-| good-first-issue | 🟢 | `#7bc96f` | Good for beginners |
-| help wanted | 🌊 | `#008672` | Need community help |
-| in progress | ⚙️ | `#cccccc` | Currently being worked on |
-| invalid | 🔘 | `#e4e669` | Not valid/won't fix |
-| question | 🟤 | `#d876e3` | Question/needs clarification |
-| wontfix | ⚪ | `#ffffff` | Won't be fixed |
+| Label | Color Name | Hex Code | Use For |
+|-------|-----------|----------|---------|
+| bug | Crimson Red | `#d73a4a` | Something is broken |
+| documentation | Ocean Blue | `#0075ca` | Docs need updating |
+| duplicate | Silver | `#cfd3d7` | Already reported |
+| enhancement | Sky Cyan | `#a2eeef` | New feature/improvement |
+| feature | Electric Purple | `#7057ff` | New feature |
+| good-first-issue | Sage Green | `#7bc96f` | Good for beginners |
+| help wanted | Forest Teal | `#008672` | Need community help |
+| in progress | Smoke Gray | `#cccccc` | Currently being worked on |
+| invalid | Golden Dust | `#e4e669` | Not valid/won't fix |
+| question | Orchid | `#d876e3` | Question/needs clarification |
+| wontfix | Snow White | `#ffffff` | Won't be fixed |
 
 ## Priority Labels (Custom)
 
-| Label | Color | Use For |
-|-------|-------|---------|
-| priority-critical | 🔴 `#d73a4a` | Must fix immediately |
-| priority-high | 🟠 `#ff6b35` | Important, do soon |
-| priority-medium | 🟡 `#ffa500` | Normal priority |
-| priority-low | ⚪ `#d3d3d3` | Can wait |
+| Label | Color Name | Hex Code | Use For |
+|-------|-----------|----------|---------|
+| priority-critical | Crimson Red | `#d73a4a` | Must fix immediately |
+| priority-high | Pumpkin Orange | `#ff6b35` | Important, do soon |
+| priority-medium | Amber | `#ffa500` | Normal priority |
+| priority-low | Ash Gray | `#d3d3d3` | Can wait |
 
 ## Status Labels (Custom)
 
-| Label | Color | Use For |
-|-------|-------|---------|
-| status-needs-review | 🔵 `#0075ca` | Waiting for review |
-| status-in-progress | 🟡 `#ffb819` | Being worked on |
-| status-blocked | 🔴 `#d73a4a` | Blocked by something |
-| status-ready | 🟢 `#28a745` | Ready to merge/deploy |
+| Label | Color Name | Hex Code | Use For |
+|-------|-----------|----------|---------|
+| status-needs-review | Ocean Blue | `#0075ca` | Waiting for review |
+| status-in-progress | Sunflower Yellow | `#ffb819` | Being worked on |
+| status-blocked | Crimson Red | `#d73a4a` | Blocked by something |
+| status-ready | Emerald Green | `#28a745` | Ready to merge/deploy |
 
 ## Type Labels (Custom)
 
-| Label | Color | Use For |
-|-------|-------|---------|
-| type-bug | 🔴 `#d73a4a` | Bug fix |
-| type-feature | 🟣 `#7057ff` | New feature |
-| type-refactor | 🟤 `#d4c5f9` | Code cleanup |
-| type-test | 🔷️ `#0184bc` | Testing related |
-| type-docs | 🔵 `#0075ca` | Documentation |
+| Label | Color Name | Hex Code | Use For |
+|-------|-----------|----------|---------|
+| type-bug | Crimson Red | `#d73a4a` | Bug fix |
+| type-feature | Electric Purple | `#7057ff` | New feature |
+| type-refactor | Lavender Mist | `#d4c5f9` | Code cleanup |
+| type-test | Deep Sky Blue | `#0184bc` | Testing related |
+| type-docs | Ocean Blue | `#0075ca` | Documentation |
 
 ---
 
@@ -166,11 +166,11 @@ Same process, but use the color picker instead of typing hex code
 
 **Example for your project:**
 
-1. 🔴 **bug** - `#d73a4a`
-2. 🟣 **feature** - `#7057ff`
-3. 🔵 **documentation** - `#0075ca`
-4. 🟢 **good-first-issue** - `#7bc96f`
-5. 🔵 **needs-review** - `#0075ca`
+1. **bug** - Crimson Red `#d73a4a`
+2. **feature** - Electric Purple `#7057ff`
+3. **documentation** - Ocean Blue `#0075ca`
+4. **good-first-issue** - Sage Green `#7bc96f`
+5. **needs-review** - Ocean Blue `#0075ca`
 
 ---
 
@@ -178,12 +178,12 @@ Same process, but use the color picker instead of typing hex code
 
 Start with just these 6 and add more as needed:
 
-1. **bug** - 🔴 `#d73a4a`
-2. **feature** - 🟣 `#7057ff`
-3. **documentation** - 🔵 `#0075ca`
-4. **good-first-issue** - 🟢 `#7bc96f`
-5. **needs-review** - 🟠 `#ffa500`
-6. **wontfix** - ⚪ `#cccccc`
+1. **bug** - Crimson Red `#d73a4a`
+2. **feature** - Electric Purple `#7057ff`
+3. **documentation** - Ocean Blue `#0075ca`
+4. **good-first-issue** - Sage Green `#7bc96f`
+5. **needs-review** - Amber `#ffa500`
+6. **wontfix** - Smoke Gray `#cccccc`
 
 These colors are standardized across GitHub and developers will recognize them immediately.
 
@@ -490,15 +490,15 @@ GitLab has a powerful feature called **scoped labels** that use double-colon (::
 
 **Examples:**
 ```
-priority::critical       (red)
-priority::high          (orange)
-workflow::in-progress   (yellow)
-workflow::review        (blue)
-workflow::blocked       (red)
-team::backend           (purple)
-team::frontend          (cyan)
-platform::iOS           (gray)
-platform::Android       (gray)
+priority::critical       (Crimson Red #d73a4a)
+priority::high          (Pumpkin Orange #ff6b35)
+workflow::in-progress   (Smoke Gray #cccccc)
+workflow::review        (Ocean Blue #0075ca)
+workflow::blocked       (Crimson Red #d73a4a)
+team::backend           (Electric Purple #7057ff)
+team::frontend          (Deep Sky Blue #0184bc)
+platform::iOS           (Slate Gray #95a5a6)
+platform::Android       (Slate Gray #95a5a6)
 ```
 
 **Benefits:**
@@ -619,31 +619,31 @@ This automatically removes `workflow::in-review` and adds `workflow::testing`.
 
 Use scoped labels for maximum organization:
 
-| Label | Color |
-|-------|-------|
-| priority::critical | 🔴 `#d73a4a` |
-| priority::high | 🟠 `#ff6b35` |
-| priority::medium | 🟡 `#ffa500` |
-| priority::low | ⚪ `#d3d3d3` |
-| workflow::backlog | 🔘 `#95a5a6` |
-| workflow::in-progress | ⚙️ `#cccccc` |
-| workflow::in-review | 🔵 `#0075ca` |
-| workflow::blocked | 🔴 `#d73a4a` |
-| workflow::done | 🟢 `#28a745` |
-| type::bug | 🔴 `#d73a4a` |
-| type::feature | 🟣 `#7057ff` |
-| type::docs | 🔵 `#0075ca` |
-| type::refactor | 🟤 `#d4c5f9` |
-| team::backend | 🟣 `#9b59b6` |
-| team::frontend | 🔷️ `#0184bc` |
-| team::devops | 🟢 `#7bc96f` |
+| Label | Color Name | Hex Code |
+|-------|-----------|----------|
+| priority::critical | Crimson Red | `#d73a4a` |
+| priority::high | Pumpkin Orange | `#ff6b35` |
+| priority::medium | Amber | `#ffa500` |
+| priority::low | Ash Gray | `#d3d3d3` |
+| workflow::backlog | Slate Gray | `#95a5a6` |
+| workflow::in-progress | Smoke Gray | `#cccccc` |
+| workflow::in-review | Ocean Blue | `#0075ca` |
+| workflow::blocked | Crimson Red | `#d73a4a` |
+| workflow::done | Emerald Green | `#28a745` |
+| type::bug | Crimson Red | `#d73a4a` |
+| type::feature | Electric Purple | `#7057ff` |
+| type::docs | Ocean Blue | `#0075ca` |
+| type::refactor | Lavender Mist | `#d4c5f9` |
+| team::backend | Electric Purple | `#7057ff` |
+| team::frontend | Deep Sky Blue | `#0184bc` |
+| team::devops | Sage Green | `#7bc96f` |
 
 Then add unscoped labels for additional organization:
 
-| Label | Color |
-|-------|-------|
-| good-first-issue | 🟢 `#7bc96f` |
-| help-wanted | 🌊 `#008672` |
-| accessibility | 💧 `#a2eeef` |
-| security | 🔴 `#d73a4a` |
-| performance | 🟠 `#ffa500` |
+| Label | Color Name | Hex Code |
+|-------|-----------|----------|
+| good-first-issue | Sage Green | `#7bc96f` |
+| help-wanted | Forest Teal | `#008672` |
+| accessibility | Sky Cyan | `#a2eeef` |
+| security | Crimson Red | `#d73a4a` |
+| performance | Amber | `#ffa500` |
